@@ -215,7 +215,7 @@ export default function Board (props){
                 
             ))}
             
-                 <button onClick={()=>setColumnModal(true)}  className={styles.addButton}>Add a column</button>
+                 <button onClick={()=>setColumnModal(true)}  className={styles.addButton}id={styles.column_name}>Add a column</button>
                  </div>   
             </div>
         </div>
