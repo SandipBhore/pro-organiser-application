@@ -70,7 +70,7 @@ function CreateBoard(props) {
               required
               className={styles.fields}
               type="text"
-              id="type"
+              id="column_name"
               onChange={(e) => {
                 setType(e.target.value);
               }}
