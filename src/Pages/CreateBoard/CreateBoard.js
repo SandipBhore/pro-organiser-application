@@ -71,6 +71,7 @@ function CreateBoard(props) {
               className={styles.fields}
               type="text"
               id="column_name"
+              id="type"
               onChange={(e) => {
                 setType(e.target.value);
               }}
