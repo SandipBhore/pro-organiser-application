@@ -71,7 +71,9 @@
     text-transform: capitalize;
     
   }
-  
+#column_name{
+  color: #888;
+}
   .trash {
     position: absolute;
     right: 10px;
